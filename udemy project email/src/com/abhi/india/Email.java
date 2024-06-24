@@ -31,7 +31,7 @@ public Email(String firstnname, String lastname)
 	
 	
 	
-	//cpmbine elements to generate email
+	//combine elements to generate email
 	email=firstname.toLowerCase()+"."+lastname.toLowerCase()+"@"+department+"."+companysuffix;
 	System.out.println("your email is : "+email);
 }
